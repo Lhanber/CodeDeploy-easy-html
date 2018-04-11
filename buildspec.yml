@@ -7,7 +7,6 @@ phases:
   build:
     commands:
       - date
-      - ll
   post_build:
     commands:
       - echo Completed on `date`
